@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.centerText {
+    text-align: center;
+}
+.nav-links{
+    background-color: red;
+    flex:1;text-align:center;
+
+}
+nav img{
+    width: 150px;
+}
+.nav-links ul li{
+    list-style: none;
+    display:inline-block;
+    padding: 10px 80px;
+    position: relative;
+}
+.nav-links ul li a{
+    color: #fff;
+    text-decoration:wavy;
+    font-size: 13px;
+}
+.nav-links ul li::after{
+    content:'';
+    width: 0%;
+    height:2px;
+    background: #eb6359;
+    display:block;
+    margin: auto;
+    transition: 0.5s;
+}
+.nav-links ul li:hover span{
+    width: 50%;
+    font-weight:bold ;
+}
+.textabout{
+    background-color: rgba(59, 59, 224, 0.758);
+    height: auto;
+}
+.section-heading{
+    align-self: center;
+
+}
+.imagepic{
+    margin-right: 240px;
+    margin-bottom: 30px;
+}
+
+.imagepic1{
+    margin-right:240px;
+    margin-bottom: 30px;
+}
+.imagepic2{
+    margin-bottom: 30px;
+}
+
+.vid1{
+    margin-right: 180px;
+}
+
+.vid2{
+    margin-right: 180px;
+}
+
+.productdescription{
+    background-color: rgb(128, 217, 128);
+    height:auto;
+}
+
+.services{
+    background-color: rgb(201, 192, 192);
+    height: auto;
+}
+
+.contactus{
+    background-color: white;
+    height: auto;
+}
+
+.tiles {
+    width: 550px;
+    font-size: 100;
+    margin: 100;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 0.598);
+  }
+  
+  .tile {
+    width: calc(600px / 3);
+    display: inline-block;
+  }
+
+  .tiles1 {
+    width: 550px;
+    font-size: 100;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.598);
+  }
+  
+  .tile1 {
+    width: calc(600px / 3);
+    display: inline-block;
+  }
+  .app {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, 200px);
+    margin-right: 240px;
+  }
+  
+  .tiles2 {
+    width: 550px;
+    font-size: 100;
+    margin: 0 auto;
+    align-self:flex-start;
+  }
+  
+  .tile2 {
+    width: calc(600px / 3);
+    display: inline-block;
+  }
+
+  .logo{
+    width: 50px;
+    height: 50px;
+  }
